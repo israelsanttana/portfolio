@@ -4,9 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Manrope;
+}
+
 header {
   display: flex;
   justify-content: space-between;
+}
+
+.logo {
+  font-weight: 800;
+  margin-top: 40px;
+  width: 100px;
+  height: 30px;
+  margin-left: 80px;
 }
 
 /*--- menu --*/
@@ -15,58 +27,93 @@ header {
   writing-mode: vertical-rl;
   display: flex;
   width: 20px;
-  height: 300px;
+  height: 400px;
   padding-left: 60px;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 .nav-menu li a {
   text-decoration: none;
   display: flex;
-  font-family: Manrope;
   font-weight: 600;
-  font-size: small;
+  font-size: 16px;
   color: #000;
 }
 
 .nav-menu ul {
   display: flex;
   width: 20px;
-  height: 300px;
+  height: 500px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
 }
 
 /*--- --- */
-
-.logo {
-  font-family: Manrope;
-  font-weight: bold;
-  margin-top: 40px;
-  width: 60px;
-}
 
 .show-case {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50rem;
-  height: 50rem;
+  height: 30rem;
 }
 
 .show-case h2 {
   font-family: DotGothic16;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .dark-mode {
   writing-mode: vertical-rl;
-  width: 80px;
+  width: 60px;
   height: 300px;
-  margin-top: 40px;
+  margin-top: 20px;
   padding-right: 20px;
   font-family: Manrope;
   font-weight: 600;
   color: #000;
-  font-size: small;
+  font-size: 16px;
+}
+
+/* --- Section ---*/
+
+.about {
+  margin-left: 80px;
+  padding-top: 18rem;
+}
+
+.about hr {
+  width: 90px;
+  height: 7px;
+  background-color: #000;
+}
+
+.about-me {
+  display: flex;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.profile-txt {
+  width: 750px;
+  height: 300px;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+
+.profile-txt h2 {
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.profile-txt p {
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 20px;
 }
