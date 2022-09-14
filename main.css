@@ -34,7 +34,7 @@ header {
 .nav-menu li a {
   text-decoration: none;
   display: flex;
-  font-weight: 600;
+  font-weight: 200;
   font-size: 16px;
   color: #000;
 }
@@ -69,9 +69,8 @@ header {
   height: 300px;
   margin-top: 20px;
   padding-right: 20px;
-  font-family: Manrope;
-  font-weight: 600;
   color: #000;
+  font-weight: 200;
   font-size: 16px;
 }
 
@@ -80,12 +79,18 @@ header {
 .about {
   margin-left: 80px;
   padding-top: 18rem;
+  margin-bottom: 50px;
+}
+
+.about h2 {
+  font-size: 20px;
 }
 
 .about hr {
   width: 90px;
   height: 7px;
   background-color: #000;
+  margin-top: 5px;
 }
 
 .about-me {
@@ -97,15 +102,14 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-top: 100px;
-  margin-left: 150px;
+  margin-top: 20px;
+  margin-right: 100px;
 }
 
 .profile-txt {
-  width: 750px;
+  width: 500px;
   height: 300px;
-  margin-top: 120px;
-  margin-left: 80px;
+  align-items: center;
 }
 
 .profile-txt h2 {
@@ -164,18 +168,73 @@ i {
   width: 350px;
   height: 100px;
   border-left: solid 1px #dcdcdc;
-  margin-top: 30px;
+  margin-top: 100px;
+}
+
+.summary-experience,
+.summary-studies,
+ul {
+  list-style: none;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+/* --- Section 2 --- */
+
+.case {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.case-title {
+  margin-left: 80px;
+  margin-top: 18rem;
+  margin-bottom: 50px;
+}
+
+.case-title h2 {
+  font-size: 20px;
+}
+
+.case-title hr {
+  width: 90px;
+  height: 7px;
+  background-color: #000;
+  margin-top: 5px;
+}
+
+.case-1,
+.case-2 {
+  width: 700px;
+  height: 230px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  margin: 30px;
 }
 
 .project-title {
-  writing-mode: vertical-rl;
-  margin: 40px;
-  margin-top: 250px;
+  padding-top: 18rem;
+  margin-left: 80px;
+  height: 20px;
 }
 
-.vertical-line {
-  width: 6px;
-  height: 90px;
+.project-title hr {
+  width: 90px;
+  height: 7px;
   background-color: #000;
-  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.project {
+  display: flex;
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4 {
+  width: 500px;
+  height: 200px;
+  margin-top: 100px;
 }
