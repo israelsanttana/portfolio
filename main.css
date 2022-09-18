@@ -183,4 +183,78 @@ ul {
   font-weight: 200;
 }
 
-/* --- Section 2 --- */
+/* --- case --- */
+
+.case {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 18rem;
+}
+
+.case-title {
+  width: 50px;
+  padding-right: 10px;
+}
+
+.case-title h2 {
+  font-size: 30px;
+}
+
+.case hr {
+  width: 90px;
+  height: 7px;
+  background-color: #000;
+  margin-top: 5px;
+}
+
+.case-internal {
+  width: 445px;
+  height: 345px;
+  margin: 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.case-internal img {
+  width: 400px;
+  height: 250px;
+  margin: 20px;
+}
+
+.case-internal-sub {
+  width: 400px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.case-internal-sub h2 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.case-internal1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+/* --- projetct --- */
+
+.project {
+  margin-top: 18rem;
+  display: flex;
+  justify-content: center;
+}
+
+.project-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.internal-project {
+  width: 500px;
+  height: 300px;
+  border: solid 1px #000;
+}
