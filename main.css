@@ -77,29 +77,26 @@ header {
   font-size: 16px;
 }
 
-/* --- Section ---*/
+/* --- about ---*/
 
-.about {
-  padding-bottom: 19rem;
-  margin-bottom: 40px;
+.about-title {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
 }
 
-.about h2 {
+.about-title h2 {
   font-size: 30px;
-}
-
-.about hr {
-  width: 90px;
-  height: 7px;
-  background-color: #000;
-  margin-top: 5px;
+  font-family: DotGothic16;
 }
 
 .about-me {
-  margin-top: 18rem;
+  margin-top: 16rem;
+}
+
+.profile-all {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .profile img {
@@ -113,7 +110,7 @@ header {
 .profile-txt {
   height: 300px;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .profile-txt h2 {
@@ -187,39 +184,32 @@ ul {
 
 .case {
   height: 500px;
-  display: flex;
-  justify-content: center;
-  margin-top: 18rem;
+  margin-top: 15rem;
 }
 
 .case-title {
-  width: 50px;
-  padding-right: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .case-title h2 {
   font-size: 30px;
-}
-
-.case hr {
-  width: 90px;
-  height: 7px;
-  background-color: #000;
-  margin-top: 5px;
+  font-family: DotGothic16;
 }
 
 .case-internal {
-  width: 445px;
+  width: 500px;
   height: 345px;
   margin: 30px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 
 .case-internal img {
   width: 400px;
   height: 250px;
-  margin: 20px;
+  margin-left: 50px;
+  margin-top: 30px;
 }
 
 .case-internal-sub {
@@ -236,25 +226,46 @@ ul {
 .case-internal1 {
   display: flex;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 80px;
+}
+
+.meet {
+  font-size: 13px;
+  margin-left: 20px;
+  padding: 4px;
+  color: #000;
+  text-decoration: none;
+  border: solid 1px #dcdcdc;
+  border-radius: 4px;
 }
 
 /* --- projetct --- */
 
 .project {
   margin-top: 18rem;
+}
+
+.project-title {
   display: flex;
   justify-content: center;
+}
+
+.project-title h2 {
+  font-size: 30px;
+  font-family: DotGothic16;
 }
 
 .project-all {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .internal-project {
-  width: 500px;
+  width: 600px;
   height: 300px;
-  border: solid 1px #000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin: 30px;
 }
