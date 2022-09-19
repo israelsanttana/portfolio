@@ -198,29 +198,40 @@ ul {
 }
 
 .case-internal {
-  width: 500px;
-  height: 345px;
-  margin: 30px;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  margin: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  background-color: #f4f4f4;
 }
 
 .case-internal img {
-  width: 400px;
-  height: 250px;
-  margin-left: 50px;
-  margin-top: 30px;
+  width: 300px;
+  height: 200px;
+  margin: 23px;
 }
 
 .case-internal-sub {
-  width: 400px;
-  height: 50px;
-  margin-left: 30px;
+  width: 300px;
+  height: 250px;
+  background-color: #fff;
 }
 
 .case-internal-sub h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 200;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.case-internal-sub p {
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .case-internal1 {
@@ -230,9 +241,11 @@ ul {
 }
 
 .meet {
+  width: 70px;
+  height: 30px;
   font-size: 13px;
-  margin-left: 20px;
-  padding: 4px;
+  padding: 5px;
+  margin-left: 95px;
   color: #000;
   text-decoration: none;
   border: solid 1px #dcdcdc;
@@ -242,7 +255,7 @@ ul {
 /* --- projetct --- */
 
 .project {
-  margin-top: 18rem;
+  margin-top: 14rem;
 }
 
 .project-title {
@@ -264,8 +277,8 @@ ul {
 
 .internal-project {
   width: 600px;
-  height: 300px;
+  height: 345px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-  margin: 30px;
+  margin: 20px;
 }
