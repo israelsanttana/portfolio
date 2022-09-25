@@ -323,3 +323,45 @@ ul {
   background-color: #f4f4f4;
   margin: 4px;
 }
+
+/* --- footer --- */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-title h2 {
+  font-size: 30px;
+  font-family: DotGothic16;
+}
+
+.footer {
+  height: 300px;
+  margin: 100px;
+  margin-top: 13rem;
+}
+
+.contact i,
+.fa-square-envelope,
+.fa-square-github,
+.fa-linkedin,
+.fa-square-whatsapp {
+  font-size: 55px;
+  color: #000;
+  margin-top: 60px;
+}
+
+.copy {
+  height: 60px;
+  margin-top: 200px;
+  background-color: #f4f4f4;
+}
+
+.copy p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 20px;
+}
