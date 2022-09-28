@@ -351,6 +351,11 @@ ul {
   border: none;
   border-bottom: solid 2px #f4f4f4;
   outline: none;
+  font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+  color: #666666;
 }
 
 .text-form {
@@ -368,6 +373,7 @@ ul {
   border-radius: 5px;
   background-color: #fff;
   transition: 0.2s ease-in;
+  color: #666666;
 }
 
 /* --- form effects--- */
@@ -405,7 +411,7 @@ ul {
 /* --- contact icons--- */
 
 .contact-footer {
-  margin-top: 12rem;
+  margin-top: 15rem;
   display: flex;
   flex-direction: column;
   text-align: center;
