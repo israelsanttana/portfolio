@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+
 # portfolio
+
 =======
+
 # Portfolio
 
 ![preview](./preview.png)
@@ -13,4 +16,3 @@
 - CSS
 - JS
 - GIT
->>>>>>> 14a54ed (add readme)
