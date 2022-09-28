@@ -7,7 +7,6 @@
 body {
   font-family: Manrope, sans-serif;
   max-width: 100%vh;
-  background-color: #dcdcdc;
 }
 
 main {
@@ -335,6 +334,7 @@ ul {
 .container-form {
   max-width: 900px;
   display: flex;
+  margin-top: 50px;
 }
 
 .form {
@@ -347,14 +347,21 @@ ul {
   margin-top: 20px;
   height: 50px;
   border: none;
-  border-bottom: solid 1px #f4f4f4;
+  border-bottom: solid 2px #f4f4f4;
 }
 .text-form {
-  border: solid 1px #f4f4f4;
-  border-radius: 3px;
+  border: solid 2px #f4f4f4;
+  border-radius: 5px;
+}
+
+.btn-form {
+  border: solid 2px #f4f4f4;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .contact-footer {
+  margin-top: 12rem;
   display: flex;
   flex-direction: column;
   text-align: center;

@@ -17,6 +17,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://kit.fontawesome.com/9451592a70.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("eZkGdL_gkhFDKyNYn");
+      })();
+    </script>
+    <script defer src="./email.js"></script>
     <title>Portfólio</title>
   </head>
   <body>
@@ -221,29 +235,29 @@
           <h2>c o n t a t o _</h2>
         </div>
         <div class="container-form">
-          <form class="form">
+          <form class="form" id="form">
             <input
               class="input-form"
               type="text"
               id="fname"
-              name="name"
+              name="from_name"
               placeholder="Seu nome.."
             />
             <input
               class="input-form"
               type="email"
               id="fname"
-              name="name"
+              name="email_name"
               placeholder="E-mail.."
             />
             <textarea
               class="input-form text-form"
               id="subject"
-              name="subject"
+              name="message"
               placeholder="Write something.."
-              style="height: 200px"
+              style="height: 100px"
             ></textarea>
-            <input type="submit" value="Submit" />
+            <input class="input-form btn-form" type="submit" value="Submit" />
           </form>
         </div>
         <div class="contatc">
@@ -269,9 +283,5 @@
         <p>Copyright © Israel Santana</p>
       </div>
     </main>
-    <script
-      src="https://kit.fontawesome.com/9451592a70.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
