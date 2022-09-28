@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-# portfolio
-
-=======
-
 # Portfolio
 
 ![preview](./preview.png)
