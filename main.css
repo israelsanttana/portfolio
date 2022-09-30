@@ -64,6 +64,9 @@ header {
 .show-case h2 {
   font-family: DotGothic16;
   font-size: 40px;
+  border-right: solid 4px #000;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .dark-mode {
@@ -439,4 +442,29 @@ ul {
   font-size: 14px;
   font-weight: 200;
   padding: 20px;
+}
+
+/*--- effect typing --- */
+
+.animation-initial {
+  animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 14em;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: #000;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
