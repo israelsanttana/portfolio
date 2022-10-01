@@ -1,6 +1,6 @@
 # Portfolio
 
-![preview](./preview.png)
+![preview](./assets/preview.png)
 
 [Clique aqui para acessar](https://israelsanttana.github.io/portfolio/)
 
