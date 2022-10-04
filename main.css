@@ -480,9 +480,10 @@ ul {
   }
 
   .show-case h2 {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 150px;
     margin-left: 45px;
+    flex-wrap: wrap;
   }
 
   .profile-all {
