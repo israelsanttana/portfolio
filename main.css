@@ -479,10 +479,15 @@ ul {
     margin: 50px;
   }
 
+  .show-case {
+    width: 400px;
+  }
+
   .show-case h2 {
-    font-size: 20px;
+    font-size: 25px;
+    margin: 20px;
     margin-top: 150px;
-    margin-left: 45px;
+
     flex-wrap: wrap;
   }
 
