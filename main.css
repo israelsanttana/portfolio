@@ -6,11 +6,6 @@
 
 body {
   font-family: Manrope, sans-serif;
-  max-width: 100%vh;
-}
-
-main {
-  width: 100%;
 }
 
 header {
@@ -39,8 +34,8 @@ header {
 .nav-menu li a {
   text-decoration: none;
   display: flex;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 18px;
   color: #000;
 }
 
@@ -51,6 +46,11 @@ header {
   display: flex;
   justify-content: space-around;
   list-style: none;
+}
+
+.nav-menu a:hover {
+  border-left: solid 4px #000;
+  transition: 0.3s;
 }
 
 /*--- header--- */
@@ -94,7 +94,7 @@ header {
 }
 
 .about-me {
-  margin-top: 16rem;
+  margin-top: 15rem;
 }
 
 .profile-all {
@@ -447,8 +447,8 @@ ul {
 /*--- effect typing --- */
 
 .animation-initial {
-  animation: blinkCursor 500ms steps(40) infinite normal,
-    typing 4s steps(40) 1s normal both;
+  animation: blinkCursor 500ms steps(38) infinite normal,
+    typing 4s steps(38) 1s normal both;
 }
 
 @keyframes typing {
@@ -456,7 +456,7 @@ ul {
     width: 0;
   }
   to {
-    width: 14em;
+    width: 13em;
   }
 }
 
@@ -466,5 +466,60 @@ ul {
   }
   to {
     border-right-color: transparent;
+  }
+}
+
+@media (max-width: 414px) {
+  .nav-menu,
+  .dark-mode {
+    display: none;
+  }
+
+  .logo {
+    margin: 50px;
+  }
+
+  .show-case h2 {
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 45px;
+  }
+
+  .profile-all {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile img {
+    margin: 0;
+  }
+  .profile-txt {
+    width: 400px;
+    height: 320px;
+    text-align: center;
+  }
+  .profile-txt p {
+    width: 400px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+  }
+  .skills i,
+  h2,
+  p {
+    font-size: 17px;
+  }
+  .figma,
+  .html-css,
+  .java-script,
+  .wordpress {
+    height: 30px;
+  }
+
+  .summary {
+    padding: 15px;
   }
 }
