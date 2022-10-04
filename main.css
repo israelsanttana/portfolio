@@ -204,7 +204,7 @@ ul {
   width: 600px;
   height: 250px;
   display: flex;
-  margin: 20px;
+  margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   background-color: #f4f4f4;
@@ -239,8 +239,8 @@ ul {
 
 .case-internal1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-top: 80px;
 }
 
 .meet {
@@ -258,6 +258,7 @@ ul {
 /* --- projetct --- */
 
 .project {
+  height: auto;
   margin-top: 14rem;
 }
 
@@ -276,7 +277,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .internal-project {
@@ -456,7 +457,7 @@ ul {
     width: 0;
   }
   to {
-    width: 11em;
+    width: 14em;
   }
 }
 
@@ -469,7 +470,7 @@ ul {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .nav-menu,
   .dark-mode {
     display: none;
@@ -482,11 +483,11 @@ ul {
   .show-case {
     width: 414px;
     align-items: center;
+    margin-top: 150px;
   }
 
   .show-case h2 {
     font-size: 25px;
-    margin-top: 150px;
   }
 
   .profile-all {
@@ -494,14 +495,12 @@ ul {
     align-items: center;
   }
 
-  .profile img {
-    margin: 0;
-  }
   .profile-txt {
     width: 400px;
     height: 320px;
     text-align: center;
   }
+
   .profile-txt p {
     width: 400px;
     text-align: center;
@@ -514,8 +513,9 @@ ul {
   .skills i,
   h2,
   p {
-    font-size: 17px;
+    font-size: 14px;
   }
+
   .figma,
   .html-css,
   .java-script,
@@ -528,7 +528,7 @@ ul {
   }
 
   .case {
-    height: 1040px;
+    height: 1150px;
   }
   .case-internal1 {
     flex-wrap: wrap;
