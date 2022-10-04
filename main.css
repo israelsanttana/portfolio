@@ -555,4 +555,10 @@ ul {
   .internal-project-sub {
     padding: 20px;
   }
+
+  .container-form {
+    width: 400px;
+    align-self: center;
+    padding: 15px;
+  }
 }
