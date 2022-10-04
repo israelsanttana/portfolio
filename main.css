@@ -248,7 +248,7 @@ ul {
   height: 30px;
   font-size: 13px;
   padding: 5px;
-  margin-left: 95px;
+  margin-left: 100px;
   color: #000;
   text-decoration: none;
   border: solid 1px #dcdcdc;
@@ -469,7 +469,7 @@ ul {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
   .nav-menu,
   .dark-mode {
     display: none;
@@ -521,5 +521,38 @@ ul {
 
   .summary {
     padding: 15px;
+  }
+
+  .case {
+    height: 1040px;
+  }
+  .case-internal1 {
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+
+  .case-internal {
+    flex-direction: column;
+    align-items: center;
+    height: 520px;
+  }
+
+  .case-internal-sub {
+    align-items: center;
+    padding: 20px;
+  }
+
+  .meet {
+    margin-left: 95px;
+  }
+
+  .internal-project {
+    flex-wrap: wrap;
+    height: 560px;
+    justify-content: center;
+  }
+
+  .internal-project-sub {
+    padding: 20px;
   }
 }
