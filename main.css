@@ -456,7 +456,7 @@ ul {
     width: 0;
   }
   to {
-    width: 13.7em;
+    width: 11em;
   }
 }
 
@@ -469,7 +469,7 @@ ul {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .nav-menu,
   .dark-mode {
     display: none;
@@ -480,14 +480,13 @@ ul {
   }
 
   .show-case {
-    width: 400px;
+    width: 414px;
+    align-items: center;
   }
 
   .show-case h2 {
     font-size: 25px;
     margin-top: 150px;
-
-    flex-wrap: wrap;
   }
 
   .profile-all {
