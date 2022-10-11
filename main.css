@@ -470,7 +470,13 @@ ul {
   }
 }
 
+/*--- responsive --- */
+
 @media (max-width: 800px) {
+  header {
+    justify-content: center;
+  }
+
   .nav-menu,
   .dark-mode {
     display: none;
@@ -481,13 +487,13 @@ ul {
   }
 
   .show-case {
-    width: 414px;
-    align-items: center;
-    margin-top: 150px;
+    height: 150px;
+    align-items: flex-end;
   }
 
   .show-case h2 {
-    font-size: 25px;
+    font-size: 23px;
+    text-align: center;
   }
 
   .profile-all {
@@ -510,10 +516,11 @@ ul {
   .skills {
     flex-wrap: wrap;
   }
+
   .skills i,
   h2,
   p {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   .figma,
