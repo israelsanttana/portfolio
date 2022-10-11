@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -52,14 +53,19 @@
         <div class="show-case">
           <h2 class="animation-initial">front-end. web (developer)</h2>
         </div>
-
         <div class="dark-mode">
           <h3>dark mode</h3>
         </div>
       </header>
       <section>
         <div class="about-me">
-          <div class="about-title" id="about">
+          <div
+            class="about-title"
+            id="about"
+            data-aos="fade-right"
+            data-aos-delay="450"
+            data-aos-easing="ease-in-out"
+          >
             <h2>s o b r e</h2>
           </div>
           <div class="profile-all">
@@ -81,7 +87,12 @@
             </div>
           </div>
         </div>
-        <div class="skills">
+        <div
+          class="skills"
+          data-aos="fade-left"
+          data-aos-delay="550"
+          data-aos-easing="ease-in-out"
+        >
           <div class="figma">
             <i class="fa-brands fa-figma"></i>
             <div class="figma-sub">
@@ -111,7 +122,12 @@
             </div>
           </div>
         </div>
-        <div class="summary">
+        <div
+          class="summary"
+          data-aos="fade-left"
+          data-aos-delay="800"
+          data-aos-easing="ease-in-out"
+        >
           <div class="summary-experience">
             <ul>
               <li>Lorem ipsum dolor sit amet consectetur</li>
@@ -130,10 +146,10 @@
           </div>
         </div>
         <div class="case" id="case">
-          <div class="case-title">
+          <div class="case-title" data-aos="fade-right">
             <h2>c a s e s</h2>
           </div>
-          <div class="case-internal1">
+          <div class="case-internal1" data-aos="fade-left">
             <div class="case-internal">
               <img src="./assets/iurckraquetes.png" alt="" />
               <div class="case-internal-sub">
@@ -165,10 +181,21 @@
           </div>
         </div>
         <div class="project">
-          <div class="project-title" id="project">
+          <div
+            class="project-title"
+            id="project"
+            data-aos="fade-right"
+            data-aos-delay="450"
+            data-aos-easing="ease-in-out"
+          >
             <h2>p r o j e t o s</h2>
           </div>
-          <div class="project-all">
+          <div
+            class="project-all"
+            data-aos="fade-left"
+            data-aos-delay="750"
+            data-aos-easing="ease-in-out"
+          >
             <div class="internal-project">
               <a
                 href="https://israelsanttana.github.io/crud-web/"
@@ -234,10 +261,21 @@
         </div>
       </section>
       <div class="contact-footer">
-        <div class="contact-title" id="contact">
+        <div
+          class="contact-title"
+          id="contact"
+          data-aos="fade-right"
+          data-aos-delay="450"
+          data-aos-easing="ease-in-out"
+        >
           <h2>c o n t a t o</h2>
         </div>
-        <div class="container-form">
+        <div
+          class="container-form"
+          data-aos="fade-left"
+          data-aos-delay="600"
+          data-aos-easing="ease-in-out"
+        >
           <form class="form" id="form">
             <input
               class="input-form"
@@ -268,7 +306,12 @@
             <input class="input-form btn-form" type="submit" value="Enviar" />
           </form>
         </div>
-        <div class="contatc">
+        <div
+          class="contatc"
+          data-aos="fade-left"
+          data-aos-delay="800"
+          data-aos-easing="ease-in-out"
+        >
           <a href="https://github.com/israelsanttana" target="_blank"
             ><i class="fa-brands fa-square-github"></i
           ></a>
@@ -290,5 +333,9 @@
         <p>Copyright © Israel Santana</p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
