@@ -263,6 +263,11 @@ ul {
   margin: 4px;
 }
 
+.internal-project:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 /* --- contact--- */
 
 .contact-title h2 {
@@ -370,7 +375,7 @@ ul {
 .copy {
   height: 60px;
   margin-top: 10rem;
-  background-color: #f4f4f4;
+  background-color: rgb(46, 46, 46);
 }
 
 .copy p {
@@ -378,6 +383,7 @@ ul {
   font-size: 14px;
   font-weight: 200;
   padding: 20px;
+  color: #fff;
 }
 
 /*--- effect typing --- */
@@ -467,29 +473,6 @@ ul {
 
   .summary {
     padding: 15px;
-  }
-
-  .case {
-    height: 1150px;
-  }
-  .case-internal1 {
-    flex-wrap: wrap;
-    margin-bottom: 100px;
-  }
-
-  .case-internal {
-    flex-direction: column;
-    align-items: center;
-    height: 520px;
-  }
-
-  .case-internal-sub {
-    align-items: center;
-    padding: 20px;
-  }
-
-  .meet {
-    margin-left: 95px;
   }
 
   .internal-project {
