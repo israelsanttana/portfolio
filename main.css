@@ -363,7 +363,6 @@ ul {
 }
 
 .contact i,
-.fa-square-envelope,
 .fa-square-github,
 .fa-linkedin,
 .fa-square-whatsapp {
@@ -384,6 +383,11 @@ ul {
   font-weight: 200;
   padding: 20px;
   color: #fff;
+}
+
+.fa-brands:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*--- effect typing --- */
